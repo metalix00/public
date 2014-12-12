@@ -1,7 +1,7 @@
 try:
     from collections import OrderedDict as od
 except:
-    from core.lib.python26_types import OrderedDict as od
+    from core.libs.python26_types import OrderedDict as od
 
 OrderedDict = od
 
